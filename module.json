@@ -1,0 +1,42 @@
+{
+  "id": "terminal",
+  "title": "Terminal",
+  "version": "4.0.13",
+  "url": "https://github.com/CodaBool/terminal-foss",
+  "bugs": "https://github.com/CodaBool/terminal-foss/issues",
+  "changelog": "https://github.com/CodaBool/terminal-foss/blob/main/changelog.md",
+  "manifest": "https://raw.githubusercontent.com/CodaBool/terminal-foss/main/module.json",
+  "download": "https://github.com/CodaBool/terminal-foss/archive/v4.0.13.zip",
+  "description": "A customizable interactive terminal from which players can read and reveal journal entries",
+  "authors": [
+    {
+      "name": "CodaBool",
+      "discord": "codabool",
+      "email": "codabool@pm.me",
+      "url": "https://codabool.com"
+    }
+  ],
+  "styles": ["global.css"],
+  "packs": [
+    {
+      "name": "terminal-macros",
+      "label": "Terminal Macros",
+      "path": "packs/terminal-macros.db",
+      "type": "Macro",
+      "private": false
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "esmodules": [
+    "scripts/hooks.js",
+    "scripts/terminal.js",
+    "scripts/ui.js",
+    "scripts/util.js",
+    "scripts/presets.js"
+  ],
+  "socket": true
+}
