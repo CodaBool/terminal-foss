@@ -6,7 +6,7 @@
   "bugs": "https://github.com/CodaBool/terminal-foss/issues",
   "changelog": "https://github.com/CodaBool/terminal-foss/blob/main/changelog.md",
   "manifest": "https://raw.githubusercontent.com/CodaBool/terminal-foss/main/module.json",
-  "download": "https://github.com/CodaBool/terminal-foss/archive/v4.0.13.zip",
+  "download": "https://github.com/CodaBool/terminal-foss/releases/download/v4.0.13/terminal.zip",
   "description": "A customizable interactive terminal from which players can read and reveal journal entries",
   "authors": [
     {
