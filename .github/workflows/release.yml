@@ -32,7 +32,7 @@ jobs:
           echo "$changelog_contents" > latest.md
       - name: Build release zip
         run: |
-          rm *.md license macro.js
+          rm private.md changelog.md readme.md license macro.js
           rm -rf marketing .github .git
           zip -r terminal.zip .
       # https://github.com/marketplace/actions/gh-release
