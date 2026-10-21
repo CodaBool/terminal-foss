@@ -33,7 +33,7 @@ jobs:
       - name: Build release zip
         run: |
           rm private.md changelog.md readme.md license macro.js
-          rm -rf marketing .github .git
+          rm -rf marketing .github .git .gitignore
           zip -r terminal.zip .
       # https://github.com/marketplace/actions/gh-release
       - uses: softprops/action-gh-release@v3

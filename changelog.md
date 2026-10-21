@@ -22,7 +22,7 @@
      \________________________________\     ()   \o o/   ()
       *********************************     ()           ()
 </pre>
-# Version 4.0.1
+# Version 4.0.14
 - PF2e/SF2e has a rules based vision. Do not give a notification if using that and vision is 0
 
 # Version 4.0.13
