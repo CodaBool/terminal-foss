@@ -22,6 +22,9 @@
      \________________________________\     ()   \o o/   ()
       *********************************     ()           ()
 </pre>
+# Version 4.0.1
+- PF2e/SF2e has a rules based vision. Do not give a notification if using that and vision is 0
+
 # Version 4.0.13
 - fix bug where levels module was used when it was deprecated. THANK YOU anonymous for the report!
 

@@ -92,6 +92,10 @@ export function validateTile(tile, macroMode) {
           )
           canvas.ping(t.object.center)
           // if (macroMode) return
+        } else if (t.rulesBasedVision) {
+          // PF2e/SF2e "rules-based vision" (robot icon on the token's vision range) lets the
+          // system derive vision from the actor (darkvision, low-light, etc.), so the token's
+          // stored sight.range is left at 0.
         } else if (t.sight.range < 1 && t.object) {
           ui.notifications.error(
             `Terminal | An observe token for "${t.name}" has a vision range of zero`,
